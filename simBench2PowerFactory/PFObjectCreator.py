@@ -169,7 +169,7 @@ def createDCLine(folder, dcline_row, cubicleA, cubicleB, dclintype_row):
     newDCgenB.mode_inp = "PQ"
     newDCgenB.pgini = (newDCgenA.pgini - float(dclintype_row["fixPLosses"]) * (1 - (float(dclintype_row["relPLosses"]) / 100)))
     newDCgenB.cosn = 1  # set defaultvalue of the powerfactor to 1
-    newDCgenB.sgn = newDCgenB.pgini*1.5
+    newDCgenB.sgn = abs(newDCgenB.pgini*1.5)
     newDCgenB.Pmin_uc = 0
     if dclintype_row["pMax"] == "NULL":
         newDCgenB.Pmax_uc = 0
