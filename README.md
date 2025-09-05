@@ -5,7 +5,7 @@ university, aiming at provision of realistic models of electrical distribution g
 The data is availabe at [https://simbench.de](https://simbench.de/en/).
 
 Another conversion tool for converting SimBench data sets to ie3's power system data model is available 
-[here](https://github.com/ie3-institute/simBench2psdm]).
+[here](https://github.com/ie3-institute/simBench2psdm).
 
 Furthermore, the tool [here](https://github.com/e2nIEE/simbench) enables the use of the SimBench data set in the 
 simulation tool [pandapower](https://github.com/e2nIEE/pandapower).
